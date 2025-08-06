@@ -8,35 +8,62 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Background and base colors */
+    --background: 39 24% 96%; /* f5f0e6 tons terrosos */
+    --foreground: 30 25% 25%; /* marrom escuro para textos */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%; /* branco puro */
+    --card-foreground: 30 25% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 30 25% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Dourado */
+    --primary: 43 74% 49%; /* #d4af37 dourado */
+    --primary-foreground: 0 0% 100%; /* branco */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Marrom suave */
+    --secondary: 33 34% 49%; /* #a67c52 marrom suave */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted */
+    --muted: 39 24% 92%;
+    --muted-foreground: 30 15% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Laranja para CTAs */
+    --accent: 20 100% 63%; /* #ff8c42 laranja */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 39 24% 88%;
+    --input: 39 24% 88%;
+    --ring: 43 74% 49%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom spiritual colors */
+    --spiritual-gold: 43 74% 49%; /* dourado principal */
+    --spiritual-gold-light: 43 74% 65%; /* dourado claro */
+    --spiritual-brown: 33 34% 49%; /* marrom suave */
+    --spiritual-cream: 39 24% 96%; /* tons terrosos */
+    --spiritual-orange: 20 100% 63%; /* laranja CTA */
+
+    /* Gradients */
+    --gradient-spiritual: linear-gradient(135deg, hsl(var(--spiritual-gold)), hsl(var(--spiritual-gold-light)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--spiritual-gold) / 0.9), hsl(var(--spiritual-brown) / 0.8));
+    --gradient-cta: linear-gradient(135deg, hsl(var(--spiritual-orange)), hsl(var(--spiritual-gold)));
+
+    /* Shadows */
+    --shadow-spiritual: 0 10px 30px -10px hsl(var(--spiritual-gold) / 0.3);
+    --shadow-warm: 0 8px 25px -8px hsl(var(--spiritual-brown) / 0.2);
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Open Sans', sans-serif;
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 

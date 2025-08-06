@@ -61,7 +61,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'spiritual': {
+					'gold': 'hsl(var(--spiritual-gold))',
+					'gold-light': 'hsl(var(--spiritual-gold-light))',
+					'brown': 'hsl(var(--spiritual-brown))',
+					'cream': 'hsl(var(--spiritual-cream))',
+					'orange': 'hsl(var(--spiritual-orange))'
 				}
+			},
+			fontFamily: {
+				'heading': 'var(--font-heading)',
+				'body': 'var(--font-body)',
+			},
+			backgroundImage: {
+				'gradient-spiritual': 'var(--gradient-spiritual)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-cta': 'var(--gradient-cta)',
+			},
+			boxShadow: {
+				'spiritual': 'var(--shadow-spiritual)',
+				'warm': 'var(--shadow-warm)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
