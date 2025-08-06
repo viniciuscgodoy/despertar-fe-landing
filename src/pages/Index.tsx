@@ -8,6 +8,8 @@ import Pricing from "@/components/Pricing";
 import FinalCTA from "@/components/FinalCTA";
 
 const Index = () => {
+  console.log("Index component rendering...");
+  
   return (
     <div className="min-h-screen bg-background">
       <HeroSection />

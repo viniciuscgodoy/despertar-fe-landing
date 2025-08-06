@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-prayer-sunrise.jpg";
 
 const HeroSection = () => {
+  console.log("HeroSection rendering...");
+  
   const scrollToCTA = () => {
     document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' });
   };

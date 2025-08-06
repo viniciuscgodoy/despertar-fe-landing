@@ -2,6 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import bibleImage from "@/assets/bible-golden-light.jpg";
 
 const QuizConnection = () => {
+  console.log("QuizConnection rendering...");
+  
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
