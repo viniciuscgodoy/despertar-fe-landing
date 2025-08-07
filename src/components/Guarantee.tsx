@@ -12,7 +12,7 @@ const Guarantee = () => {
             </div>
           </div>
           
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Garantia Incondicional de 
             <span className="text-spiritual-gold block">
               7 Dias
@@ -21,12 +21,12 @@ const Guarantee = () => {
           
           <Card className="border-spiritual-gold border-2 shadow-spiritual max-w-3xl mx-auto">
             <CardContent className="p-8">
-              <p className="font-body text-xl text-foreground leading-relaxed mb-6">
+              <p className="font-body text-base sm:text-lg md:text-xl text-foreground leading-relaxed mb-6">
                 Se você não sentir mais paz, esperança e proximidade com Deus, 
                 <span className="font-bold text-spiritual-gold"> devolvemos 100% do seu dinheiro.</span>
               </p>
               
-              <div className="grid md:grid-cols-3 gap-6 mt-8">
+              <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6 mt-8">
                 <div className="text-center">
                   <div className="flex justify-center mb-3">
                     <Clock className="w-10 h-10 text-spiritual-gold" />

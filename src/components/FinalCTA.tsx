@@ -11,7 +11,7 @@ const FinalCTA = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
               Cada dia que passa sem fortalecer sua fé, 
               <span className="text-spiritual-gold block">
                 mais distante você fica de viver a presença de Deus.
@@ -20,23 +20,23 @@ const FinalCTA = () => {
             
             <Card className="bg-white/10 backdrop-blur-sm border-spiritual-gold/30 mb-8">
               <CardContent className="p-6">
-                <p className="font-body text-xl leading-relaxed">
+                <p className="font-body text-base sm:text-lg md:text-xl leading-relaxed">
                   Comece hoje e sinta novamente o amor, a paz e a esperança 
                   que Ele tem para você.
                 </p>
                 
-                <div className="flex items-center gap-4 mt-6">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 mt-6">
                   <div className="flex items-center gap-2">
-                    <Heart className="w-6 h-6 text-spiritual-gold" />
-                    <span className="font-body">Paz interior</span>
+                    <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-spiritual-gold" />
+                    <span className="font-body text-sm sm:text-base">Paz interior</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Sparkles className="w-6 h-6 text-spiritual-gold" />
-                    <span className="font-body">Esperança renovada</span>
+                    <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-spiritual-gold" />
+                    <span className="font-body text-sm sm:text-base">Esperança renovada</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Clock className="w-6 h-6 text-spiritual-gold" />
-                    <span className="font-body">Transformação imediata</span>
+                    <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-spiritual-gold" />
+                    <span className="font-body text-sm sm:text-base">Transformação imediata</span>
                   </div>
                 </div>
               </CardContent>
@@ -45,7 +45,7 @@ const FinalCTA = () => {
             <div className="space-y-4">
               <Button 
                 variant="cta-large" 
-                className="w-full text-xl py-6 animate-pulse hover:animate-none"
+                className="w-full text-lg sm:text-xl py-4 sm:py-6 animate-pulse hover:animate-none"
                 onClick={() => window.open('#', '_blank')}
               >
                 ✨ Sim, Quero Começar Agora

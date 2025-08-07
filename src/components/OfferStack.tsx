@@ -40,10 +40,10 @@ const OfferStack = () => {
     <section className="py-20 bg-background" id="oferta">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             O Que Você Vai Receber
           </h2>
-          <p className="font-body text-xl text-muted-foreground">
+          <p className="font-body text-base sm:text-lg md:text-xl text-muted-foreground">
             Tudo o que você precisa para restaurar sua fé e transformar sua vida espiritual
           </p>
         </div>
@@ -65,10 +65,10 @@ const OfferStack = () => {
                     {product.icon}
                   </div>
                   <div>
-                    <h3 className="font-body font-bold text-lg text-foreground mb-2">
+                    <h3 className="font-body font-bold text-base sm:text-lg text-foreground mb-2">
                       {product.title}
                     </h3>
-                    <p className="font-body text-muted-foreground">
+                    <p className="font-body text-sm sm:text-base text-muted-foreground">
                       {product.description}
                     </p>
                   </div>
