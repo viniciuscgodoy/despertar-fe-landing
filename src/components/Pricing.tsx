@@ -12,7 +12,7 @@ const Pricing = () => {
   ];
 
   const totalValue = "R$ 219,50";
-  const finalPrice = "R$ 39,90";
+  const finalPrice = "R$ 29,90";
 
   return (
     <section className="py-20 bg-background" id="preco">
@@ -94,7 +94,7 @@ const Pricing = () => {
                 <Button 
                   variant="cta-large" 
                   className="w-full text-base md:text-lg lg:text-xl py-4 md:py-6"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://pay.cakto.com.br/mbfid9v_521660', '_blank')}
                 >
                   🔥 Quero Restaurar Minha Fé Hoje
                 </Button>

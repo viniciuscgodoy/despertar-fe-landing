@@ -79,7 +79,7 @@ const OfferStack = () => {
             <div className="pt-6">
               <Button 
                 variant="cta-large" 
-                onClick={scrollToPricing}
+                onClick={() => window.open('https://pay.cakto.com.br/mbfid9v_521660', '_blank')}
                 className="w-full"
               >
                 🔥 Quero Restaurar Minha Fé Hoje
