@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <section 
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${heroImage})` }}
+      style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${heroImage})` }}
     >
       <div className="container mx-auto px-4 text-center text-white z-10">
         <div className="max-w-4xl mx-auto">
@@ -33,7 +33,6 @@ const HeroSection = () => {
           <Button 
             variant="cta-large" 
             onClick={scrollToCTA}
-            className="animate-pulse hover:animate-none"
           >
             🙏 Quero Restaurar Minha Fé Agora
           </Button>
