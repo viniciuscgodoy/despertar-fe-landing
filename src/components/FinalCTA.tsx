@@ -20,7 +20,7 @@ const FinalCTA = () => {
             
             <Card className="bg-white/10 backdrop-blur-sm border-spiritual-gold/30 mb-8">
               <CardContent className="p-6">
-                <p className="font-body text-base sm:text-lg md:text-xl leading-relaxed">
+                <p className="font-body text-base sm:text-lg md:text-xl leading-relaxed text-white">
                   Comece hoje e sinta novamente o amor, a paz e a esperança 
                   que Ele tem para você.
                 </p>
@@ -28,15 +28,15 @@ const FinalCTA = () => {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 mt-6">
                   <div className="flex items-center gap-2">
                     <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-spiritual-gold" />
-                    <span className="font-body text-sm sm:text-base">Paz interior</span>
+                    <span className="font-body text-sm sm:text-base text-white">Paz interior</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-spiritual-gold" />
-                    <span className="font-body text-sm sm:text-base">Esperança renovada</span>
+                    <span className="font-body text-sm sm:text-base text-white">Esperança renovada</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-spiritual-gold" />
-                    <span className="font-body text-sm sm:text-base">Transformação imediata</span>
+                    <span className="font-body text-sm sm:text-base text-white">Transformação imediata</span>
                   </div>
                 </div>
               </CardContent>
@@ -45,7 +45,7 @@ const FinalCTA = () => {
             <div className="space-y-4">
               <Button 
                 variant="cta-large" 
-                className="w-full text-lg sm:text-xl py-4 sm:py-6 animate-pulse hover:animate-none"
+                className="w-full text-lg sm:text-xl py-4 sm:py-6 transition-opacity duration-300 hover:opacity-90"
                 onClick={() => window.open('https://pay.cakto.com.br/mbfid9v_521660', '_blank')}
               >
                 ✨ Sim, Quero Começar Agora
