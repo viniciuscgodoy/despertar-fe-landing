@@ -18,9 +18,9 @@ const Index = () => {
       <QuizConnection />
       <Benefits />
       <OfferStack />
+      <Pricing />
       <Testimonials />
       <Guarantee />
-      <Pricing />
       <FinalCTA />
     </div>
   );
