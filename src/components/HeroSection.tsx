@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-prayer-sunrise.jpg";
+import heroImage from "@/assets/hero-faith-restoration.jpg";
 
 const HeroSection = () => {
-  console.log("HeroSection rendering...");
-  
   const scrollToCTA = () => {
     document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -14,33 +12,33 @@ const HeroSection = () => {
       style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${heroImage})` }}
     >
       <div className="container mx-auto px-4 text-center text-white z-10">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Sua fé está esfriando? 
-            <span className="block text-spiritual-gold">
-              Descubra como reacender sua conexão com Deus
-            </span>
-            <span className="text-2xl md:text-3xl lg:text-4xl font-normal">
-              antes que seja tarde demais.
+        <div className="max-w-5xl mx-auto">
+          <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+            Descubra Como Restaurar Sua Fé e Sentir a Presença de Deus 
+            <span className="block text-spiritual-gold mt-4">
+              Mesmo Que Sua Vida Espiritual Esteja Fria
             </span>
           </h1>
           
           <h2 className="font-body text-xl md:text-2xl lg:text-3xl mb-8 text-gray-200 font-light">
-            Existe um caminho simples e prático para restaurar sua fé — 
-            e você pode começar hoje mesmo.
+            Domine os Métodos Mais Poderosos de Oração e Conexão Espiritual desde Casa, Passo a Passo, com Resultados Reais em Dias, Não Anos
           </h2>
+
+          <div className="bg-white/10 backdrop-blur-sm border border-spiritual-gold/50 rounded-lg p-6 mb-8 max-w-3xl mx-auto">
+            <p className="text-lg text-spiritual-gold font-semibold mb-2">
+              ✨ Sem conhecimentos teológicos complexos. Sem confusão. Com métodos práticos e resultados que transformarão sua vida espiritual.
+            </p>
+          </div>
           
           <Button 
             variant="cta-large" 
             onClick={scrollToCTA}
+            className="animate-pulse hover:animate-none"
           >
             🙏 Quero Restaurar Minha Fé Agora
           </Button>
         </div>
       </div>
-      
-      {/* Decorative elements */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent"></div>
     </section>
   );
 };
