@@ -96,7 +96,7 @@ const ValueStack = () => {
               <Button 
                 variant="cta-large" 
                 onClick={scrollToOffer}
-                className="w-full text-xl py-6 animate-pulse hover:animate-none mb-6"
+                className="w-full text-xl py-6 animate-pulse-slow mb-6"
               >
                 🚀 BAIXAR AGORA - R$ 19,90
               </Button>

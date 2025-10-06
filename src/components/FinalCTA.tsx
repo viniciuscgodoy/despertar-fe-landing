@@ -45,8 +45,8 @@ const FinalCTA = () => {
             <div className="space-y-4">
               <Button 
                 variant="cta-large" 
-                className="w-full text-lg sm:text-xl py-4 sm:py-6 transition-opacity duration-300 hover:opacity-90"
-                onClick={() => window.open('https://pay.cakto.com.br/mbfid9v_521660', '_blank')}
+                className="w-full text-lg sm:text-xl py-4 sm:py-6 animate-pulse-slow"
+                onClick={() => window.open('https://pay.cakto.com.br/3fd4jcm', '_blank')}
               >
                 ✨ Sim, Quero Começar Agora
               </Button>

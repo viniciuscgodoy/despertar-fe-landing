@@ -12,7 +12,7 @@ const PricingOffer = () => {
         <div className="max-w-4xl mx-auto">
           
           <div className="text-center mb-12">
-            <div className="inline-block bg-red-600 text-white px-6 py-3 rounded-full font-bold text-lg mb-6 animate-pulse">
+            <div className="inline-block bg-red-600 text-white px-6 py-3 rounded-full font-bold text-lg mb-6 animate-pulse-slow">
               🔥 OFERTA LIMITADA - APENAS HOJE 🔥
             </div>
             
@@ -56,7 +56,7 @@ const PricingOffer = () => {
               <Button 
                 variant="cta-large" 
                 onClick={scrollToOffer}
-                className="w-full text-xl py-6 animate-pulse hover:animate-none mb-6"
+                className="w-full text-xl py-6 animate-pulse-slow mb-6"
               >
                 🙏 QUERO O LIVRO COM TODOS OS BÔNUS
               </Button>

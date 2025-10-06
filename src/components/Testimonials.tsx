@@ -1,25 +1,31 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
+import mariaImg from "@/assets/testimonial-maria.jpg";
+import joaoImg from "@/assets/testimonial-joao.jpg";
+import anaImg from "@/assets/testimonial-ana.jpg";
 
 const Testimonials = () => {
   const testimonials = [
     {
       name: "Maria S.",
       age: "58 anos",
-      text: "Me senti mais próximo de Deus e recuperei minha paz interior em apenas alguns dias.",
-      rating: 5
+      text: "Me senti mais próxima de Deus e recuperei minha paz interior em apenas alguns dias.",
+      rating: 5,
+      image: mariaImg
     },
     {
       name: "João P.",
       age: "62 anos", 
       text: "Eu estava perdido espiritualmente, mas encontrei um novo propósito.",
-      rating: 5
+      rating: 5,
+      image: joaoImg
     },
     {
       name: "Ana L.",
       age: "49 anos",
       text: "Hoje oro com mais confiança e sinto Deus agindo na minha vida.",
-      rating: 5
+      rating: 5,
+      image: anaImg
     }
   ];
 
@@ -39,8 +45,12 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="border-spiritual-gold/30 hover:border-spiritual-gold transition-all duration-300 hover:shadow-spiritual transform hover:-translate-y-2">
               <CardContent className="p-8 text-center">
-                <div className="flex justify-center mb-4">
-                  <Quote className="w-8 h-8 text-spiritual-gold" />
+                <div className="flex justify-center mb-6">
+                  <img 
+                    src={testimonial.image} 
+                    alt={`Foto de ${testimonial.name}`}
+                    className="w-24 h-24 rounded-full object-cover border-4 border-spiritual-gold/30"
+                  />
                 </div>
                 
                 <div className="flex justify-center gap-1 mb-4">

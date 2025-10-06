@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import padreEduardoImg from "@/assets/padre-eduardo.jpg";
 
 const AuthoritySection = () => {
   return (
@@ -17,8 +18,12 @@ const AuthoritySection = () => {
               
               <div className="flex flex-col lg:flex-row gap-8 items-center">
                 
-                <div className="w-48 h-48 bg-spiritual-gold/20 rounded-full flex items-center justify-center text-6xl font-bold text-spiritual-gold flex-shrink-0">
-                  PE
+                <div className="flex-shrink-0">
+                  <img 
+                    src={padreEduardoImg} 
+                    alt="Pe. Eduardo Santana"
+                    className="w-48 h-48 rounded-full object-cover border-4 border-spiritual-gold/50 shadow-warm"
+                  />
                 </div>
 
                 <div className="flex-1 text-center lg:text-left">
