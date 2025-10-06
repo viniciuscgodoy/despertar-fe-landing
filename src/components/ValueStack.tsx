@@ -96,9 +96,9 @@ const ValueStack = () => {
               <Button 
                 variant="cta-large" 
                 onClick={scrollToOffer}
-                className="w-full text-xl py-6 animate-pulse-slow mb-6"
+                className="w-full text-base md:text-xl py-4 md:py-6 mb-6"
               >
-                🚀 BAIXAR AGORA - R$ 19,90
+                🚀 COMEÇAR AGORA
               </Button>
 
               <div className="text-center space-y-2 text-sm text-muted-foreground">

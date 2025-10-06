@@ -12,8 +12,8 @@ const PricingOffer = () => {
         <div className="max-w-4xl mx-auto">
           
           <div className="text-center mb-8 md:mb-12">
-            <div className="inline-block bg-red-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-full font-bold text-base md:text-lg mb-4 md:mb-6 animate-pulse-slow">
-              🔥 OFERTA LIMITADA - APENAS HOJE 🔥
+            <div className="inline-block bg-red-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-full font-bold text-sm md:text-lg mb-4 md:mb-6">
+              🔥 APENAS HOJE 🔥
             </div>
             
             <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 md:mb-6 px-4">
@@ -56,9 +56,9 @@ const PricingOffer = () => {
               <Button 
                 variant="cta-large" 
                 onClick={scrollToOffer}
-                className="w-full text-lg md:text-xl py-4 md:py-6 animate-pulse-slow mb-4 md:mb-6"
+                className="w-full text-base md:text-xl py-4 md:py-6 mb-4 md:mb-6"
               >
-                🙏 QUERO O LIVRO COM TODOS OS BÔNUS
+                🙏 QUERO COMEÇAR AGORA
               </Button>
 
               <div className="text-center space-y-2 text-xs md:text-sm text-muted-foreground px-2">

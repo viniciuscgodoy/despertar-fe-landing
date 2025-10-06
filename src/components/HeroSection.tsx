@@ -33,9 +33,8 @@ const HeroSection = () => {
           <Button 
             variant="cta-large" 
             onClick={scrollToCTA}
-            className="animate-pulse-slow"
           >
-            🙏 Quero Restaurar Minha Fé Agora
+            🙏 Restaurar Minha Fé
           </Button>
         </div>
       </div>

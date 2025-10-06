@@ -45,10 +45,10 @@ const FinalCTA = () => {
             <div className="space-y-4">
               <Button 
                 variant="cta-large" 
-                className="w-full text-lg sm:text-xl py-4 sm:py-6 animate-pulse-slow"
+                className="w-full text-base sm:text-xl py-4 sm:py-6"
                 onClick={() => window.open('https://pay.cakto.com.br/3fd4jcm', '_blank')}
               >
-                ✨ Sim, Quero Começar Agora
+                ✨ Quero Começar Agora
               </Button>
               
               <p className="font-body text-center text-gray-200 text-sm">
