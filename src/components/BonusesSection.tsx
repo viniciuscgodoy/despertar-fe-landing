@@ -40,7 +40,7 @@ const BonusesSection = () => {
                 
                 <div className="text-center border-t border-spiritual-gold/30 pt-4">
                   <div className="text-sm text-muted-foreground">Valor: R$ 97,00</div>
-                  <div className="font-bold text-spiritual-gold">Solo por HOY: GRÁTIS</div>
+                  <div className="font-bold text-spiritual-gold">Somente hoje: GRÁTIS</div>
                 </div>
               </CardContent>
             </Card>
@@ -64,7 +64,7 @@ const BonusesSection = () => {
                 
                 <div className="text-center border-t border-spiritual-gold/30 pt-4">
                   <div className="text-sm text-muted-foreground">Valor: R$ 127,00</div>
-                  <div className="font-bold text-spiritual-gold">Solo por HOY: GRÁTIS</div>
+                  <div className="font-bold text-spiritual-gold">Somente hoje: GRÁTIS</div>
                 </div>
               </CardContent>
             </Card>
@@ -88,7 +88,7 @@ const BonusesSection = () => {
                 
                 <div className="text-center border-t border-spiritual-gold/30 pt-4">
                   <div className="text-sm text-muted-foreground">Valor: R$ 87,00</div>
-                  <div className="font-bold text-spiritual-gold">Solo por HOY: GRÁTIS</div>
+                  <div className="font-bold text-spiritual-gold">Somente hoje: GRÁTIS</div>
                 </div>
               </CardContent>
             </Card>
@@ -112,7 +112,7 @@ const BonusesSection = () => {
                 
                 <div className="text-center border-t border-spiritual-gold/30 pt-4">
                   <div className="text-sm text-muted-foreground">Valor: R$ 97,00</div>
-                  <div className="font-bold text-spiritual-gold">Solo por HOY: GRÁTIS</div>
+                  <div className="font-bold text-spiritual-gold">Somente hoje: GRÁTIS</div>
                 </div>
               </CardContent>
             </Card>
@@ -128,7 +128,7 @@ const BonusesSection = () => {
             </p>
             <div className="text-center">
               <div className="text-sm text-muted-foreground">Valor: R$ 47,00</div>
-              <div className="font-bold text-spiritual-gold">Solo por HOY: GRÁTIS</div>
+              <div className="font-bold text-spiritual-gold">Somente hoje: GRÁTIS</div>
             </div>
           </div>
 

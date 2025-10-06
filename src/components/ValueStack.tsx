@@ -11,62 +11,62 @@ const ValueStack = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           
-          <div className="text-center mb-12">
-            <div className="inline-block bg-spiritual-gold text-black px-6 py-3 rounded-full font-bold text-lg mb-6">
+          <div className="text-center mb-8 md:mb-12">
+            <div className="inline-block bg-spiritual-gold text-black px-4 md:px-6 py-2 md:py-3 rounded-full font-bold text-base md:text-lg mb-4 md:mb-6">
               💎 VALOR TOTAL INCRÍVEL 💎
             </div>
             
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
+            <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 md:mb-6 px-4">
               Um resumo de tudo o que você vai receber HOJE
             </h2>
             
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-base md:text-lg text-muted-foreground mb-6 md:mb-8 px-4">
               Veja todo o valor extraordinário que está obtendo
             </p>
             
-            <div className="text-3xl font-bold text-spiritual-gold mb-8">
+            <div className="text-2xl md:text-3xl font-bold text-spiritual-gold mb-6 md:mb-8">
               R$ 675 em valor!
             </div>
           </div>
 
-          <Card className="border-spiritual-gold border-2 shadow-2xl mb-8">
-            <CardContent className="p-8">
+          <Card className="border-spiritual-gold border-2 shadow-2xl mb-6 md:mb-8">
+            <CardContent className="p-4 md:p-8">
               
-              <div className="space-y-4 mb-8">
+              <div className="space-y-3 md:space-y-4 mb-6 md:mb-8">
                 
-                <div className="flex justify-between items-center py-3 border-b border-spiritual-gold/20">
-                  <span className="font-semibold text-foreground">✓ DESPERTAR DA FÉ (Livro Digital + Vídeos)</span>
-                  <span className="font-bold text-spiritual-gold">R$ 219</span>
+                <div className="flex justify-between items-center py-2 md:py-3 border-b border-spiritual-gold/20 gap-2">
+                  <span className="font-semibold text-foreground text-sm md:text-base">✓ DESPERTAR DA FÉ (Livro Digital + Vídeos)</span>
+                  <span className="font-bold text-spiritual-gold text-sm md:text-base whitespace-nowrap">R$ 219</span>
                 </div>
 
-                <div className="flex justify-between items-center py-3 border-b border-spiritual-gold/20">
-                  <span className="font-semibold text-foreground">✓ Rosário e Terço - Guia Completo</span>
-                  <span className="font-bold text-spiritual-gold">R$ 97</span>
+                <div className="flex justify-between items-center py-2 md:py-3 border-b border-spiritual-gold/20 gap-2">
+                  <span className="font-semibold text-foreground text-sm md:text-base">✓ Rosário e Terço - Guia Completo</span>
+                  <span className="font-bold text-spiritual-gold text-sm md:text-base whitespace-nowrap">R$ 97</span>
                 </div>
 
-                <div className="flex justify-between items-center py-3 border-b border-spiritual-gold/20">
-                  <span className="font-semibold text-foreground">✓ Jejum Espiritual - Do Iniciante ao Avançado</span>
-                  <span className="font-bold text-spiritual-gold">R$ 127</span>
+                <div className="flex justify-between items-center py-2 md:py-3 border-b border-spiritual-gold/20 gap-2">
+                  <span className="font-semibold text-foreground text-sm md:text-base">✓ Jejum Espiritual - Do Iniciante ao Avançado</span>
+                  <span className="font-bold text-spiritual-gold text-sm md:text-base whitespace-nowrap">R$ 127</span>
                 </div>
 
-                <div className="flex justify-between items-center py-3 border-b border-spiritual-gold/20">
-                  <span className="font-semibold text-foreground">✓ 100 Versículos para Memorizar</span>
-                  <span className="font-bold text-spiritual-gold">R$ 87</span>
+                <div className="flex justify-between items-center py-2 md:py-3 border-b border-spiritual-gold/20 gap-2">
+                  <span className="font-semibold text-foreground text-sm md:text-base">✓ 100 Versículos para Memorizar</span>
+                  <span className="font-bold text-spiritual-gold text-sm md:text-base whitespace-nowrap">R$ 87</span>
                 </div>
 
-                <div className="flex justify-between items-center py-3 border-b border-spiritual-gold/20">
-                  <span className="font-semibold text-foreground">✓ Plano de Leitura Bíblica Anual</span>
-                  <span className="font-bold text-spiritual-gold">R$ 97</span>
+                <div className="flex justify-between items-center py-2 md:py-3 border-b border-spiritual-gold/20 gap-2">
+                  <span className="font-semibold text-foreground text-sm md:text-base">✓ Plano de Leitura Bíblica Anual</span>
+                  <span className="font-bold text-spiritual-gold text-sm md:text-base whitespace-nowrap">R$ 97</span>
                 </div>
 
-                <div className="flex justify-between items-center py-3 border-b border-spiritual-gold/20">
-                  <span className="font-semibold text-foreground">✓ Certificado de Conclusão</span>
-                  <span className="font-bold text-spiritual-gold">R$ 47</span>
+                <div className="flex justify-between items-center py-2 md:py-3 border-b border-spiritual-gold/20 gap-2">
+                  <span className="font-semibold text-foreground text-sm md:text-base">✓ Certificado de Conclusão</span>
+                  <span className="font-bold text-spiritual-gold text-sm md:text-base whitespace-nowrap">R$ 47</span>
                 </div>
 
-                <div className="flex justify-between items-center py-4 text-xl font-bold border-t-2 border-spiritual-gold">
+                <div className="flex justify-between items-center py-3 md:py-4 text-lg md:text-xl font-bold border-t-2 border-spiritual-gold gap-2">
                   <span className="text-foreground">Valor total</span>
-                  <span className="text-spiritual-gold">R$ 674,90</span>
+                  <span className="text-spiritual-gold whitespace-nowrap">R$ 674,90</span>
                 </div>
 
               </div>
