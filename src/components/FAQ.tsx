@@ -15,28 +15,28 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "Preciso ter experiência prévia em vida espiritual para usar este método?",
-      answer: "Não! O método foi desenvolvido especialmente para pessoas que estão começando ou que querem aprofundar sua vida espiritual. Todas as técnicas são explicadas passo a passo, desde o nível mais básico."
+      question: "📖 O que é o 'Despertar da Fé'?",
+      answer: "É um guia digital completo com métodos práticos de oração e conexão espiritual, exercícios, reflexões bíblicas e vídeos para você reacender sua fé e sentir a presença de Deus novamente."
     },
     {
-      question: "Quanto tempo tenho acesso ao conteúdo?",
-      answer: "Você tem acesso vitalício ao material. Uma vez adquirido, pode consultar quantas vezes quiser, no seu ritmo e quando desejar."
+      question: "⏰ Preciso ter muito tempo para aplicar?",
+      answer: "Não! Apenas 10 minutos por dia são suficientes para transformar sua rotina espiritual e começar a sentir resultados reais."
     },
     {
-      question: "O que inclui exatamente a compra?",
-      answer: "Você recebe o livro digital completo 'Despertar da Fé', todos os vídeos explicativos dos 4 métodos, os 4 bônus (Rosário e Terço, Jejum Espiritual, 100 Versículos, Plano de Leitura) e o certificado de conclusão."
+      question: "🙏 Preciso ter conhecimento teológico?",
+      answer: "Absolutamente não! O método foi criado para ser simples e acessível para qualquer pessoa, independente do nível de conhecimento religioso."
     },
     {
-      question: "Como receberei o material após comprar?",
-      answer: "Imediatamente após a confirmação do pagamento, você receberá um email com todos os links de acesso. Pode baixar e usar em qualquer dispositivo: celular, tablet ou computador."
+      question: "💳 Como recebo o material após a compra?",
+      answer: "Imediatamente após a confirmação do pagamento, você receberá um e-mail com acesso instantâneo a todo o conteúdo digital. Pode acessar de qualquer dispositivo!"
     },
     {
-      question: "Posso acessar de qualquer país?",
-      answer: "Sim! O material é digital e pode ser acessado de qualquer lugar do mundo. O pagamento é processado automaticamente na moeda do seu país."
+      question: "🔄 Tem garantia mesmo?",
+      answer: "Sim! Garantia incondicional de 7 dias. Se você sentir que o conteúdo não te aproximou de Deus, devolvemos 100% do seu dinheiro, sem perguntas."
     },
     {
-      question: "Há garantia de satisfação?",
-      answer: "Sim! Oferecemos garantia incondicional de 7 dias. Se não ficar satisfeito, devolvemos 100% do seu dinheiro sem fazer perguntas."
+      question: "✝️ Funciona para qualquer religião cristã?",
+      answer: "Sim! Os métodos são baseados em princípios cristãos universais e funcionam para católicos, evangélicos e qualquer pessoa que busca uma conexão mais profunda com Deus."
     }
   ];
 

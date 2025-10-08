@@ -25,31 +25,33 @@ const PricingOffer = () => {
             </div>
           </div>
 
-          <Card className="border-spiritual-gold border-2 shadow-2xl mb-6 md:mb-8">
+          <Card className="border-spiritual-gold border-2 shadow-glow mb-6 md:mb-8 bg-gradient-premium">
             <CardContent className="p-4 md:p-8">
               
               <div className="text-center mb-6 md:mb-8">
-                <p className="text-base md:text-lg text-muted-foreground mb-3 md:mb-4 px-2">
-                  O valor total do Livro digital + Vídeos é de
+                <p className="text-sm md:text-base text-muted-foreground mb-2 md:mb-3 px-2">
+                  Valor do Livro Digital + Vídeos
                 </p>
-                <div className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+                <div className="text-xl md:text-2xl font-bold text-muted-foreground mb-2 line-through decoration-2">
                   R$ 219,90
                 </div>
-                <div className="text-base md:text-lg text-muted-foreground mb-4 md:mb-6">
+                <div className="text-sm md:text-base text-muted-foreground mb-4 line-through decoration-2">
                   + R$ 455,00 em Bônus
                 </div>
                 
-                <div className="bg-muted/50 p-4 md:p-6 rounded-lg mb-4 md:mb-6">
-                  <p className="text-sm md:text-lg text-muted-foreground mb-3 md:mb-4 px-2">
-                    Mas apenas por Hoje, você pode acessar todo o conteúdo economizando mais de 90%, 
-                    ou seja, faz apenas um único pagamento de
+                <div className="bg-spiritual-gold/10 border-2 border-spiritual-gold p-4 md:p-6 rounded-lg mb-4 md:mb-6">
+                  <p className="text-sm md:text-base font-semibold text-foreground mb-2 px-2">
+                    Hoje você investe apenas:
                   </p>
-                  <div className="text-4xl md:text-5xl font-bold text-spiritual-gold mb-2">
+                  <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-spiritual-gold mb-2">
                     R$ 19,90
                   </div>
-                  <div className="text-xs md:text-sm text-muted-foreground">
-                    💳 Pagamento único - Sem mensalidades
-                  </div>
+                  <p className="text-xs md:text-sm text-muted-foreground">
+                    💳 Pagamento único • Sem mensalidades
+                  </p>
+                  <p className="text-xs md:text-sm font-bold text-spiritual-deep mt-2">
+                    Economize mais de 90%!
+                  </p>
                 </div>
               </div>
 

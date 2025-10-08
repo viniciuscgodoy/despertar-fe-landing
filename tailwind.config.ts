@@ -67,7 +67,9 @@ export default {
 					'gold-light': 'hsl(var(--spiritual-gold-light))',
 					'brown': 'hsl(var(--spiritual-brown))',
 					'cream': 'hsl(var(--spiritual-cream))',
-					'orange': 'hsl(var(--spiritual-orange))'
+					'orange': 'hsl(var(--spiritual-orange))',
+					'deep': 'hsl(var(--spiritual-deep))',
+					'light': 'hsl(var(--spiritual-light))'
 				}
 			},
 			fontFamily: {
@@ -78,10 +80,12 @@ export default {
 				'gradient-spiritual': 'var(--gradient-spiritual)',
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-cta': 'var(--gradient-cta)',
+				'gradient-premium': 'var(--gradient-premium)',
 			},
 			boxShadow: {
 				'spiritual': 'var(--shadow-spiritual)',
 				'warm': 'var(--shadow-warm)',
+				'glow': 'var(--shadow-glow)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

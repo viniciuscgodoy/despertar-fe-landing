@@ -49,15 +49,19 @@ All colors MUST be HSL.
     --spiritual-brown: 33 34% 49%; /* marrom suave */
     --spiritual-cream: 39 24% 96%; /* tons terrosos */
     --spiritual-orange: 20 100% 63%; /* laranja CTA */
+    --spiritual-deep: 30 35% 25%; /* marrom profundo */
+    --spiritual-light: 45 80% 95%; /* creme claro */
 
     /* Gradients */
     --gradient-spiritual: linear-gradient(135deg, hsl(var(--spiritual-gold)), hsl(var(--spiritual-gold-light)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--spiritual-gold) / 0.9), hsl(var(--spiritual-brown) / 0.8));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--spiritual-deep) / 0.95), hsl(var(--spiritual-brown) / 0.9));
     --gradient-cta: linear-gradient(135deg, hsl(var(--spiritual-orange)), hsl(var(--spiritual-gold)));
-
+    --gradient-premium: linear-gradient(135deg, hsl(var(--spiritual-gold) / 0.1), hsl(var(--spiritual-light)));
+    
     /* Shadows */
-    --shadow-spiritual: 0 10px 30px -10px hsl(var(--spiritual-gold) / 0.3);
-    --shadow-warm: 0 8px 25px -8px hsl(var(--spiritual-brown) / 0.2);
+    --shadow-spiritual: 0 10px 40px -10px hsl(var(--spiritual-gold) / 0.4);
+    --shadow-warm: 0 8px 30px -8px hsl(var(--spiritual-brown) / 0.25);
+    --shadow-glow: 0 0 40px hsl(var(--spiritual-gold) / 0.3);
 
     /* Typography */
     --font-heading: 'Playfair Display', serif;
